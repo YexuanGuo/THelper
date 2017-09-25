@@ -7,7 +7,7 @@ MENU
     read host
     case "$host" in
         1|10.101.81.238)
-            exec /usr/bin/sshpass -p admin123.  ssh root@47.93.90.83 -p22
+            exec /usr/bin/sshpass -p aaaa.  ssh root@47.93.90.83 -p22
             ;;
         *)
         echo "Error, No host"
